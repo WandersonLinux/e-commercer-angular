@@ -1,27 +1,17 @@
-# ECommerceDio
+# Desafio projeto Angular - DIO
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
+Desenvolvimento de um front-end de um e-commerce utilizando Angular, como backend utilizei serve em node para consumo de api simples de livros, para que retorna-se um lista de livros.
 
-## Development server
+## Backend
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Backend desenvolvido com base em aulas anteriores sobre Angular, entre na pasta "e-commerce-dio-api", rode comando `npm install` para que instale as dependências.
 
-## Code scaffolding
+Seguido rode em seu terminal `node serve.js`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## FrontEnd
 
-## Build
+Front desenvolvido com auxilio Instrutora Nathalia, aula "Como criar um front-end de um e-commerce utilizando Angular"
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Na aula é utilizado para consumo uma API desenvolvida em C#, fiz algumas pequenas alterações para consumir API em node.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Dentro da pasta "e-commerce-dio", `npm install` para instalar as dependências e seguida inicializar em ambiente de desenvolvimento com comando angular CLI `ng new serve`.
